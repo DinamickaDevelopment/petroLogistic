@@ -8,9 +8,12 @@
 		text-transform:uppercase;
 		text-align:center;
 		color:#474747;
-.navbar.navbar-default.navbar-fixed-top
+.navbar.navbar-default.navbar-static-top
 	background-color:rgba(238,233,217,0.65);
 	border:none !important;
+	margin:0!important;
+	position:absolute;
+	width:100%;
 	li
 		a
 			text-transform: uppercase;
@@ -47,11 +50,14 @@
 				margin:35px 0;
 
 @media (min-width: 768px) and (max-width: 991px)
-	
 	.navbar.navbar-default
 		li
 			a
 				padding:4px 5px !important;
+
+	.nav.navbar-nav.navbar-right
+		padding-right:15px;
+
 //@media (min-width: 992px) and (max-width: 1199px)
 //@media (min-width: 1200px)
 

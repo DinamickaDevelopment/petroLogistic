@@ -10,25 +10,28 @@ body {
   text-align: center;
   color: #474747;
 }
-.navbar.navbar-default.navbar-fixed-top {
+.navbar.navbar-default.navbar-static-top {
   background-color: rgba(238,233,217,0.65);
   border: none !important;
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
 }
-.navbar.navbar-default.navbar-fixed-top li a {
+.navbar.navbar-default.navbar-static-top li a {
   text-transform: uppercase;
   cursor: pointer;
   font: 600 14px/20px "Open Sans";
   color: #2b2b2b !important;
 }
-.navbar.navbar-default.navbar-fixed-top li a.clientArea {
+.navbar.navbar-default.navbar-static-top li a.clientArea {
   background: #1991eb;
   border: 1px solid #1991eb;
   color: #fafafa !important;
 }
-.navbar.navbar-default.navbar-fixed-top li a:hover {
+.navbar.navbar-default.navbar-static-top li a:hover {
   color: #1991eb !important;
 }
-.navbar.navbar-default.navbar-fixed-top li a.clientArea:hover {
+.navbar.navbar-default.navbar-static-top li a.clientArea:hover {
   background: #fafafa !important;
   color: #1991eb !important;
 }
@@ -59,6 +62,9 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   .navbar.navbar-default li a {
     padding: 4px 5px !important;
+  }
+  .nav.navbar-nav.navbar-right {
+    padding-right: 15px;
   }
 }
 footer {
