@@ -1,0 +1,331 @@
+body {
+  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+}
+.navbar-brand {
+  height: 100px !important;
+}
+.navbar-brand .brandName {
+  font: 700 19px/32px "Cormorant Garamond";
+  text-transform: uppercase;
+  text-align: center;
+  color: #474747;
+}
+.navbar.navbar-default.navbar-fixed-top {
+  background-color: rgba(238,233,217,0.65);
+  border: none !important;
+}
+.navbar.navbar-default.navbar-fixed-top li a {
+  text-transform: uppercase;
+  cursor: pointer;
+  font: 600 14px/20px "Open Sans";
+  color: #2b2b2b !important;
+}
+.navbar.navbar-default.navbar-fixed-top li a.clientArea {
+  background: #1991eb;
+  border: 1px solid #1991eb;
+  color: #fafafa !important;
+}
+.navbar.navbar-default.navbar-fixed-top li a:hover {
+  color: #1991eb !important;
+}
+.navbar.navbar-default.navbar-fixed-top li a.clientArea:hover {
+  background: #fafafa !important;
+  color: #1991eb !important;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .nav {
+    padding: 0 15px;
+  }
+  .navbar-collapse {
+    background: #eee9d9;
+  }
+  .navbar-brand {
+    padding: 20px 0 0 15px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding: 20px 0 0 0;
+  }
+  .navbar.navbar-default li {
+    display: inline-block;
+    float: none !important;
+  }
+  .navbar.navbar-default li a {
+    padding: 4px 19px !important;
+    margin: 35px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar.navbar-default li a {
+    padding: 4px 5px !important;
+  }
+}
+footer {
+  font: 100 14px/18px "Open Sans";
+  background: #2b2b2b;
+}
+footer span {
+  color: #fafafa;
+  display: inline-block;
+  margin: 21px 0;
+}
+footer a {
+  display: inline-block;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  color: #fafafa;
+  margin: 21px 0;
+}
+footer a:hover {
+  color: #fafafa;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+}
+section.reqTrial {
+  background: url("/images/home_bg.png") no-repeat;
+  background-size: cover;
+}
+section.reqTrial h1 {
+  text-transform: uppercase;
+}
+section.reqTrial a.req {
+  width: 165px;
+  height: 40px;
+  padding: 0 !important;
+  margin: 55px 0 0 0;
+  background-color: #fafafa !important;
+  color: #2b2b2b;
+  border: 1px solid #fafafa !important;
+  border-radius: 0 !important;
+  font: 600 16px/40px "Open Sans";
+  text-transform: uppercase;
+}
+section.reqTrial a.req:hover {
+  background: #1991eb !important;
+  color: #fafafa !important;
+}
+section.reqTrial a.moveLink {
+  display: block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 128px auto 52px;
+  background: #fafafa;
+  color: #1991eb;
+  border: 1px solid #fafafa;
+  border-radius: 100%;
+  cursor: pointer;
+}
+section.reqTrial a.moveLink:before {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: -15px 0 0 -15px;
+  top: 50%;
+  left: 50%;
+  font-weight: 100;
+}
+section.reqTrial a.moveLink:hover {
+  background: #1991eb;
+  color: #fafafa;
+}
+@media (min-width: 320px) {
+  section.reqTrial h1 {
+    font: 900 24px/28px "Open Sans";
+    padding: 0 0 0 0;
+    margin: 120px 0 0 0;
+  }
+  section.reqTrial h3 {
+    font: 14px/26px "Open Sans";
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  section.reqTrial h1 {
+    font: 900 36px/42px "Open Sans";
+  }
+  section.reqTrial h3 {
+    font: 24px/35px "Open Sans";
+  }
+}
+@media (min-width: 992px) {
+  section.reqTrial h1 {
+    font: 900 36px/42px "Open Sans";
+    padding: 0 300px 0 0;
+    margin: 175px 0 0 0;
+  }
+  section.reqTrial h3 {
+    font: 24px/35px "Open Sans";
+    padding: 0 240px 0 0;
+    margin: 0 0 0 0;
+  }
+}
+.valuePoints .sectionHeader {
+  text-align: center;
+}
+.valuePoints .sectionHeader h3 {
+  font-weight: 600;
+  text-align: center;
+  color: #1991eb;
+}
+.valuePoints .sectionHeader p {
+  padding: 0 10px;
+  font: 300 16px/18px "Open Sans";
+  color: #909090;
+  margin: 0 0 20px 0;
+}
+.valuePoints .sectionContent {
+  color: #2b2b2b;
+}
+.valuePoints .sectionContent .col-lg-3:nth-child(1) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat 0px 0px;
+}
+.valuePoints .sectionContent .col-lg-3:nth-child(2) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -66px 0px;
+}
+.valuePoints .sectionContent .col-lg-3:nth-child(3) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -132px 0px;
+}
+.valuePoints .sectionContent .col-lg-3:nth-child(4) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -198px 0px;
+}
+.valuePoints .sectionContent .circle {
+  width: 130px;
+  height: 130px;
+  border: 2px solid #2b2b2b;
+  border-radius: 100%;
+  margin: 0 auto;
+  background: #dcdce6;
+  position: relative;
+}
+.valuePoints .sectionContent .circle .circleImg {
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.valuePoints .sectionContent div.underCircleText {
+  font: 300 16px/24px "Open Sans";
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+.textInformation {
+  padding: 30px 0 0 0;
+  background: #f2f2f2;
+}
+.textInformation p {
+  font: 100 20px/30px "Open Sans";
+  margin: 0 0 40px 0;
+}
+.client .sectionHeader {
+  text-align: center;
+}
+.client .sectionHeader h3 {
+  font-weight: 600;
+  text-align: center;
+  color: #1991eb;
+}
+.client .sectionContent {
+  color: #2b2b2b;
+}
+.client .sectionContent .col-lg-4:nth-child(1) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat 0px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(2) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -66px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(3) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -132px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(4) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -198px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(5) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -264px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(6) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -330px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(7) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -396px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(8) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -462px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .col-lg-4:nth-child(9) .circle .circleImg {
+  background: url("/images/spriteHomePage.png") no-repeat -528px -66px;
+  width: 66px;
+  height: 66px;
+  position: absolute;
+  margin: -33px 0 0 -33px;
+  left: 50%;
+  top: 50%;
+}
+.client .sectionContent .circle {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  margin: 0 auto;
+}
+.client .sectionContent div.underCircleText {
+  font: 100 20px "Open Sans";
+  margin: 10px 0 30px 0;
+  text-align: center;
+}

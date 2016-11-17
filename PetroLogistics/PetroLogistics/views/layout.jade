@@ -1,0 +1,143 @@
+﻿doctype html
+html
+  head
+    title= title
+    meta( name="viewport" content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600,700" rel="stylesheet")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js')
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+        
+  body
+    block content   
+    
+    nav.navbar.navbar-default.navbar-fixed-top(role='navigation')
+      div.container
+          div.navbar-header
+            button(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false").collapsed.navbar-toggle
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            a(href='#').navbar-brand
+                img(alt='logo' src='/images/logo.png')
+                
+
+          div#bs-example-navbar-collapse-1.collapse.navbar-collapse
+   
+            ul.nav.navbar-nav.navbar-right              
+              
+              li: a(href='#') home
+              li: a(href='#') about
+              li: a(href='#') history
+              li.dropdown
+                a(href='#',data-toggle='dropdown').dropdown-toggle services
+                  b.caret
+                ul.dropdown-menu
+                  li: a(href='#') link
+                  li: a(href='#') link
+                  li: a(href='#') link 
+              li: a(href='#') contact
+              li: a(href='#') posts
+              li: a.clientArea(href='#') client area
+
+            
+    section.reqTrial
+        div.container
+            div.row 
+                div.col-lg-10.col-lg-offset-1.col-md-12.col-md-offset-0
+                    h1 Shedding light in hard to see corners of the oil market
+                    h3 With over 35 years' experience monitoring the world's major exporters, Petro-Logistics brings unprecedented clarity to otherwise opaque crude oil and refined product trade flows
+                    a.btn.btn-default.req request trial
+            div.row 
+                div.col-lg12
+                    a(href='#' aria-hidden='true').glyphicon.glyphicon-menu-down.moveLink
+
+    section.valuePoints
+        div.container
+            div.row.sectionHeader
+                div.col-lg-6.col-lg-offset-3
+                    h3 Petro-Logistics' Value Points
+                    p Petro-Logistics is the world’s leading independent company measuring sea-borne petroleum trade with this level of detail and accuracy
+            div.row.sectionContent 
+                div.col-lg-3.col-md-3
+                    div.circle
+                        div.circleImg 
+                    div.underCircleText Access to unique data from a long-established, global network of sources
+                div.col-lg-3.col-md-3
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Experienced human verification ensures production of the highest quality data available to the market
+                div.col-lg-3.col-md-3
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Weekly and monthly reports show granular statistics on export grades, destinations and lifters
+                div.col-lg-3.col-md-3
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Real time API Data Feeds provide users with daily updates
+     
+     section.textInformation
+        div.container
+            div.row
+                div.col-lg-10.col-lg-offset-1
+                    p Oil market information is imperfect by nature. Port lineup reports often conflict and fixture lists are incomplete. AIS satellite data can only provide a tanker's current position, heading and draught, certainly not the quality of oil on board a tanker at any given time. 
+                    p From its 35 years' monitoring crude oil and refined product trade flows, Petro-Logistics understands that the experienced human element is an essential part of providing accurate results.
+                    p This is why every cargo loaded in Petro-Logistics' areas of coverage is individually verified at loading, throughout its voyage and at discharge. This meticulous verification ensures production of the highest quality data available to the market.
+
+section.client
+        div.container
+            div.row.sectionHeader
+                div.col-lg-6.col-lg-offset-3
+                    h3 Clients of Petro-Logistics include:
+            div.row.sectionContent 
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Major Oil Companies
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Independent Oil Companies
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText National Oil Companies
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Physical Oil Traders
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Oil Refiners
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Banks and Hedge Funds
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Shipping Companies
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Storage Companies
+                div.col-lg-4.col-md-4
+                    div.circle
+                        div.circleImg
+                    div.underCircleText Investigative Firms
+
+footer
+    div.container
+        div.row
+            div.col-lg-7.col-md-6.col-sm-6.col-xs-12
+                span © 2016 Petro-Logistics S.A
+            div.col-lg-2.col-md-2.col-sm-2.col-xs-12
+                a Privacy Policy
+            div.col-lg-2.col-md-3.col-sm-3.col-xs-12
+                a Terms and Conditions 
+                
+
+      
