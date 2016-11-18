@@ -1,5 +1,5 @@
 ﻿body
-   font: 14px "Open Sans", Helvetica, Arial, sans-serif
+   font-family: "Open Sans" !important;
 //============================= Menu ========================================
 .navbar-brand 
 	height:100px !important;
@@ -29,6 +29,14 @@
 		a.clientArea:hover 
 			background: #fafafa!important;
 			color:#1991eb !important;
+	ul.dropdown-menu
+		background:rgb(238,233,217)
+		
+		li
+			width:100%;
+
+			a
+				margin:10px 0;
 
 @media (min-width: 320px) and (max-width: 767px)
 	.nav
@@ -163,6 +171,7 @@ section.reqTrial
 		text-align:center;
 		h3 
 			font-weight:600;
+			font-family:"Open Sans";
 			text-align:center;
 			color:#1991eb;
 		p

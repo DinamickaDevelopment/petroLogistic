@@ -1,5 +1,5 @@
 body {
-  font: 14px "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans" !important;
 }
 .navbar-brand {
   height: 100px !important;
@@ -34,6 +34,15 @@ body {
 .navbar.navbar-default.navbar-static-top li a.clientArea:hover {
   background: #fafafa !important;
   color: #1991eb !important;
+}
+.navbar.navbar-default.navbar-static-top ul.dropdown-menu {
+  background: #eee9d9;
+}
+.navbar.navbar-default.navbar-static-top ul.dropdown-menu li {
+  width: 100%;
+}
+.navbar.navbar-default.navbar-static-top ul.dropdown-menu li a {
+  margin: 10px 0;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .nav {
@@ -178,6 +187,7 @@ section.reqTrial a.moveLink:hover {
 }
 .valuePoints .sectionHeader h3 {
   font-weight: 600;
+  font-family: "Open Sans";
   text-align: center;
   color: #1991eb;
 }
