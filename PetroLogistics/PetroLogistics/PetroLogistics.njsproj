@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>26fec3e2-1bae-4b00-b174-8d62163a5618</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>bin\www</StartupFile>
+    <StartupFile>app.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -36,6 +36,7 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
+    <Compile Include="views\about.jade" />
     <Content Include="package.json" />
     <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="Web.config" />
