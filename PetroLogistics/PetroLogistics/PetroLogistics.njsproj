@@ -39,6 +39,7 @@
     <Compile Include="views\about.jade" />
     <Content Include="package.json" />
     <None Include="PetroLogistics - Web Deploy.pubxml" />
+    <Content Include="views\country.jade" />
     <Content Include="Web.config" />
     <None Include="Web.Debug.config" />
     <Content Include="public\images\home_bg.png" />

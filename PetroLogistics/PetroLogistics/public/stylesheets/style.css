@@ -500,7 +500,7 @@ section.trialBtn {
   margin-bottom: 20px;
   text-align: center;
 }
-a.req {
+.trialBtnContainer a.req {
   width: 165px;
   height: 40px;
   padding: 0 !important;
@@ -512,7 +512,94 @@ a.req {
   text-transform: uppercase;
   margin-top: 30px;
 }
-a.req:hover {
+.trialBtnContainer a.req:hover {
   background: #1991eb !important;
   color: #fafafa !important;
+}
+.countryHeader {
+  height: 500px;
+}
+.countryImage {
+  background: url("/images/country_bg.png") 50% 0%/cover no-repeat;
+  height: 100%;
+}
+.postMarkSectionWrap {
+  padding: 30px 15px 45px 15px;
+}
+.postmarkContainer {
+  padding: 5px !important;
+  height: 395px;
+  background-color: #1991eb;
+}
+.postMark {
+  height: 100%;
+  width: 100%;
+  background: url("/images/post_mark.png") 50% 0%/cover no-repeat;
+  background-size: 100% auto;
+}
+div.countryTextContainer {
+  height: 395px;
+}
+h3.countryHeading {
+  margin-bottom: 30px;
+  margin-left: 25px;
+}
+p.countryText {
+  font: 100 20px/30px "Open Sans";
+  margin: 0 0 40px 25px;
+  text-align: justify;
+}
+.countryBtnContainer {
+  background-color: #1991eb;
+  height: 100px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: -15px;
+}
+.countryBtnContainer a.req {
+  width: 240px;
+  height: 40px;
+  padding: 0 !important;
+  background-color: #fafafa !important;
+  color: #2b2b2b;
+  border: 1px solid #fafafa !important;
+  border-radius: 0 !important;
+  font: 600 16px/40px "Open Sans";
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.countryBtnContainer a.req:hover {
+  background: #1991eb !important;
+  color: #fafafa !important;
+}
+.block-tile {
+  position: absolute;
+  width: 100%;
+  padding: 15px 0;
+}
+.bottom-tile {
+  bottom: 0;
+  padding: 0 15px;
+}
+@media (max-width: 991px) {
+  div.row.block-tile {
+    position: static;
+    width: unset;
+    padding: 0;
+  }
+  div.row.bottom-tile {
+    padding: 0;
+  }
+  div.postMark {
+    background-size: auto 100%;
+  }
+  div.countryBtnContainer {
+    margin: 0;
+  }
+  h3.countryHeading {
+    margin-left: 0;
+  }
+  p.countryText {
+    margin: 0 0 40px 0;
+  }
 }

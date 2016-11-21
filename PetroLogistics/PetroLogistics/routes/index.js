@@ -7,7 +7,11 @@ router.get('/', function (req, res) {
 }); 
 
 router.get('/about', function (req, res) {
-    res.render('about'); 
-})
+    res.render('about');
+}); 
+
+router.get('/country', function (req, res) {
+    res.render('country'); 
+}); 
 
 module.exports = router;
