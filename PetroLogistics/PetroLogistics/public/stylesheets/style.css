@@ -541,6 +541,9 @@ section.trialBtn {
   padding: 5px !important;
   height: 395px;
   background-color: #1991eb;
+  -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
 }
 .postMark {
   height: 100%;
@@ -587,6 +590,11 @@ p.countryText {
   position: absolute;
   width: 100%;
   padding: 15px 0;
+}
+div.countryBtnContainer {
+  -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
 }
 .bottom-tile {
   bottom: 0;
@@ -957,17 +965,19 @@ section.contactHeader {
   height: 100%;
 }
 @media (min-width: 1200px) {
-  .contactHeader {
+  section.contactHeader {
     height: 700px;
   }
 }
 div.contactContent {
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 form.contactForm {
   margin-top: 20px;
-  padding: 15px 80px 0px 80px;
-  margin-bottom: 15px;
+  padding: 30px 80px 15px 80px;
+  margin-bottom: 25px;
   background-color: #fafafa;
   -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
   -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
@@ -982,11 +992,14 @@ p.contact-title {
 input.contact-input {
   border-radius: 0px;
   border: 1px solid #8c8c8c;
+  height: 40px;
+  background-color: #fafafa;
 }
 textarea.contact-textarea {
   border-radius: 0px;
   resize: none;
   border: 1px solid #8c8c8c;
+  background-color: #fafafa;
 }
 div.left-half {
   padding-right: 7px;
@@ -1008,11 +1021,33 @@ input.submit-btn {
 input.submit-btn:hover {
   color: #2b2b2b;
 }
+div.info {
+  text-align: left;
+  margin-bottom: 45px;
+}
+div.info-text p {
+  margin: 0;
+}
+div.info-tile {
+  margin-top: 0;
+}
 @media (max-width: 991px) {
   div.left-half {
     padding-right: 15px;
   }
   div.right-half {
     padding-left: 15px;
+  }
+  div.info-tile {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  div.form-wrap {
+    padding: 0;
+  }
+  form.contactForm {
+    padding: 30px 20px 15px 20px;
   }
 }

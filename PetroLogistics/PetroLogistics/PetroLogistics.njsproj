@@ -59,9 +59,11 @@
     <Content Include="public\images\service_soviet.png" />
     <Content Include="public\images\service_soviet_bg.png" />
     <Content Include="public\stylesheets\style.css" />
+    <Content Include="views\contact.jade" />
     <Content Include="views\country.jade" />
     <Content Include="views\history.jade" />
     <Content Include="views\opec.jade" />
+    <Content Include="views\posts.jade" />
     <Content Include="views\soviet.jade" />
     <Content Include="views\services.jade" />
     <Content Include="Web.config" />
