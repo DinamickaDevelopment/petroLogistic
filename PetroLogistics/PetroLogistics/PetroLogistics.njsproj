@@ -58,6 +58,7 @@
     <Content Include="public\images\service_opec_bg.png" />
     <Content Include="public\images\service_soviet.png" />
     <Content Include="public\images\service_soviet_bg.png" />
+    <Content Include="public\stylesheets\style.css" />
     <Content Include="views\country.jade" />
     <Content Include="views\history.jade" />
     <Content Include="views\opec.jade" />
