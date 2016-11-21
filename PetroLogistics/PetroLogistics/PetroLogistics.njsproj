@@ -37,6 +37,7 @@
     <Compile Include="routes\users.js" />
     <Compile Include="bin\www" />
     <Compile Include="views\about.jade" />
+    <Compile Include="views\history.jade" />
     <Content Include="package.json" />
     <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="views\country.jade" />

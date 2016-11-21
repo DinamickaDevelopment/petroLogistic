@@ -602,4 +602,7 @@ p.countryText {
   p.countryText {
     margin: 0 0 40px 0;
   }
+  div.countryTextContainer {
+    height: unset;
+  }
 }
