@@ -20,7 +20,7 @@
     <OutputPath>.</OutputPath>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
-    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectView>ShowAllFiles</ProjectView>
     <NodejsPort>1337</NodejsPort>
     <StartWebBrowser>true</StartWebBrowser>
   </PropertyGroup>
@@ -39,9 +39,30 @@
     <Compile Include="views\about.jade" />
     <Content Include="package.json" />
     <None Include="PetroLogistics - Web Deploy.pubxml" />
+    <Content Include="public\images\about_bg.png" />
+    <Content Include="public\images\adam.png" />
+    <Content Include="public\images\country_bg.png" />
+    <Content Include="public\images\daniel.png" />
+    <Content Include="public\images\history_bg.png" />
+    <Content Include="public\images\history_photo.png" />
+    <Content Include="public\images\jaquie.png" />
+    <Content Include="public\images\mark.png" />
+    <Content Include="public\images\meet_team_bg.png" />
+    <Content Include="public\images\post_mark.png" />
+    <Content Include="public\images\post_mark_opec.png" />
+    <Content Include="public\images\post_mark_soviet.png" />
+    <Content Include="public\images\services_bg.png" />
+    <Content Include="public\images\service_country.png" />
+    <Content Include="public\images\service_opec.png" />
+    <Content Include="public\images\service_opec_bg.png" />
+    <Content Include="public\images\service_soviet.png" />
+    <Content Include="public\images\service_soviet_bg.png" />
+    <Content Include="public\stylesheets\style.css" />
     <Content Include="views\country.jade" />
     <Content Include="views\history.jade" />
+    <Content Include="views\contact.jade" />
     <Content Include="views\opec.jade" />
+    <Content Include="views\posts.jade" />
     <Content Include="views\soviet.jade" />
     <Content Include="views\services.jade" />
     <Content Include="Web.config" />
