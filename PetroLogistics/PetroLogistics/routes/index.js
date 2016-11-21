@@ -36,5 +36,15 @@ router.get('/services/country', function (req, res) {
     res.render('country');
 }); 
 
+/* GET posts page */
+router.get('/posts', function (req, res) {
+    res.render('posts');
+}); 
+
+/* GET contacts page */
+router.get('/contact', function (req, res) {
+    res.render('contact');
+}); 
+
 
 module.exports = router;

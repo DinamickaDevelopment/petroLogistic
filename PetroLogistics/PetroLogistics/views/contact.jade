@@ -1,0 +1,45 @@
+﻿extends layout
+block content
+    section.contactHeader
+        div.contactImage
+    section.contactContent
+        div.container.contactContent
+            div.row
+                div.col-lg-12.col-md-12
+                    h3.serviceHeading Contact
+                    p.contact-title To contact us or request a sample or trial of our products,                     p.contact-title please complete the form below
+            div.row
+                div.col-lg-8.col-md-8.col-sm-12.col-lg-offset-2.col-md-offset-2.col-sm-offset-0
+                    form.contactForm
+                        div.row
+                            div.col-lg-6.col-md-6.left-half
+                                div.form-group                           
+                                    input.form-control.contact-input(placeholder="First Name*", required)
+                            div.col-lg-6.col-md-6.right-half
+                                div.form-group
+                                    input.form-control.contact-input(placeholder="Last Name*", required)
+                        div.row
+                            div.col-lg-12.col-md-12
+                                div.form-group
+                                    input.form-control.contact-input(placeholder="Email*", required, type="email")
+                        div.row
+                            div.col-lg-12.col-md-12
+                                div.form-group
+                                    input.form-control.contact-input(placeholder="Company*", required)
+                        div.row
+                            div.col-lg-12.col-md-12
+                                div.form-group
+                                    input.form-control.contact-input(placeholder="Phone")
+                        div.row
+                            div.col-lg-12.col-md-12
+                                div.form-group
+                                    textarea.form-control.contact-textarea(placeholder="Comment", rows="10")
+                        div.row
+                            div.col-lg-12.col-md-12submit-btn  
+                                div.form-group
+                                    input.form-control.submit-btn(type="submit", value="SUBMIT")                                
+            div.row
+                div.col-lg-12.col-md-12
+                    
+    section.footerBlock
+        include footer
