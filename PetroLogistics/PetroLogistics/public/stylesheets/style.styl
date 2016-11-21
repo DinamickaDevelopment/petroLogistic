@@ -584,3 +584,146 @@ section.historyFooter
 	width: 100%;
 	position: absolute;
 
+
+//============================= Services Page Header ========================================  
+
+.servicesHeader
+	height: 500px; 
+
+.servicesImage
+	background: url(/images/services_bg.png) 50% 0% / cover no-repeat;  
+	bacgkround-size: 100% auto;
+	height: 100%; 
+
+@media (min-width: 1200px)
+	.servicesHeader 
+		height: 700px; 
+
+//============================= Services Page Content ========================================  
+
+section.servicesContent
+	padding-bottom: 45px; 
+
+div.serviceImg
+	bacgkround-size: 100% auto;
+	height: 250px;	
+	width: 100%; 
+	border-radius: 2px; 
+
+div.serviceImgRow
+	padding-top: 15px;
+	padding-bottom: 15px; 
+
+a.servicePreview 
+	height: 318px;
+	width: 100%;
+	display: block; 
+	transition: background-color 0.2s linear, color 0.2s linear; 
+	text-align: center; 
+	-webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);  
+	border-radius: 2px; 
+	overflow: hidden; 
+
+a.servicePreview:hover
+	text-decoration: none!important; 
+	color: #fff; 
+	background-color: #1991eb;
+
+a.servicePreview:focus
+	text-decoration: none!important; 
+	color: #fff; 
+	background-color: #1991eb;
+
+a.servicePreview:visited
+	text-decoration: none!important; 
+	color:#1991eb; 
+
+
+div.opec-img
+	background: url(/images/service_opec.png) 50% 0% / cover no-repeat;  
+	border-radius: 0px;
+div.soviet-img
+	background: url(/images/service_soviet.png) 50% 0% / cover no-repeat;  
+	border-radius: 0px;
+div.country-img
+	background: url(/images/service_country.png) 50% 0% / cover no-repeat;  
+	border-radius: 0px;
+
+h3.serviceHeading
+	font-weight:600;
+	font-family:"Open Sans";
+	text-align:center;
+	color:#1991eb; 
+
+div.serviceBtnSm 
+	margin-top: 30px; 
+	display: none; 
+	background-color: #1991eb; 
+	-webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);  
+
+div.serviceBtnLg 
+	height: 100px;
+	width: calc(100% - 30px); 
+	margin: 0 auto; 
+	display: block; 
+	background-color: #1991eb; 
+	-webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);  
+
+div.serviceBtn 
+	height: 100px;
+	width: 100%;
+	text-align: center;
+
+	a.req 
+		width:240px;
+		height:40px;
+		padding:0!important;
+		background-color:#1991eb;
+		color: #fafafa;
+		border:1px solid #fafafa;
+		border-radius:0!important;
+		font:600 16px/40px "Open Sans";
+		text-transform: uppercase; 
+		margin-top: 30px; 
+		transition: color .2s linear; background-color .2s linear;
+
+	a.req:hover 
+		background:#fafafa;
+		color:#2b2b2b;   
+
+
+@media (max-width: 991px)
+
+	div.serviceBtnLg
+		display: none; 
+
+	a.servicePreview 
+		width: 70%; 
+		margin: 0 auto; 
+		margin-bottom: 20px; 
+	div.serviceBtnSm
+		display: block; 
+		width: 70%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		
+@media (max-width: 768px) 
+
+	a.servicePreview 
+		width: 100%	 
+
+	div.serviceBtnLg
+		display: none; 
+
+	div.serviceBtnSm
+		display: block; 
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px; 
+		margin-top: -10px; 
