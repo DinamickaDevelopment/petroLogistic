@@ -35,6 +35,9 @@ body {
   background: #fafafa !important;
   color: #1991eb !important;
 }
+.navbar.navbar-default.navbar-static-top li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
 .navbar.navbar-default.navbar-static-top ul.dropdown-menu {
   background: #eee9d9;
 }
