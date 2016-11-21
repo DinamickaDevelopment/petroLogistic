@@ -606,3 +606,13 @@ p.countryText {
     height: unset;
   }
 }
+section.footerBlock {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+@media (max-width: 991px) {
+  section.footerBlock {
+    position: static;
+  }
+}
