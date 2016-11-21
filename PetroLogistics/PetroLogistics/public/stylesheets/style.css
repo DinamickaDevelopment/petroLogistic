@@ -546,12 +546,12 @@ div.countryTextContainer {
   height: 395px;
 }
 h3.countryHeading {
+  margin-left: 10px;
   margin-bottom: 30px;
-  margin-left: 25px;
 }
 p.countryText {
   font: 100 20px/30px "Open Sans";
-  margin: 0 0 40px 25px;
+  margin: 0 10px 40px 10px;
   text-align: justify;
 }
 .countryBtnContainer {
@@ -586,6 +586,15 @@ p.countryText {
   bottom: 0;
   padding: 0 15px;
 }
+.top-tile {
+  padding: 15px;
+  margin-top: -15px;
+  margin-left: 25px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 9px -2px rgba(0,0,0,0.75);
+}
 @media (max-width: 991px) {
   div.row.block-tile {
     position: static;
@@ -609,6 +618,10 @@ p.countryText {
   }
   div.countryTextContainer {
     height: unset;
+  }
+  div.top-tile {
+    margin-left: 0;
+    margin-top: 20px;
   }
 }
 section.footerBlock {
@@ -825,5 +838,41 @@ div.serviceBtn a.req:hover {
     margin: 0 auto;
     margin-bottom: 20px;
     margin-top: -10px;
+  }
+}
+section.sovietHeader {
+  height: 500px;
+}
+.sovietImage {
+  background: url("/images/service_soviet_bg.png") 50% 0%/cover no-repeat;
+  height: 100%;
+}
+.sovietMark {
+  height: 100%;
+  width: 100%;
+  background: url("/images/post_mark_soviet.png") 50% 0%/cover no-repeat;
+  background-size: 100% auto;
+}
+@media (max-width: 991px) {
+  div.sovietMark {
+    background-size: auto 100%;
+  }
+}
+section.opecHeader {
+  height: 500px;
+}
+.opecImage {
+  background: url("/images/service_opec_bg.png") 50% 0%/cover no-repeat;
+  height: 100%;
+}
+.opecMark {
+  height: 100%;
+  width: 100%;
+  background: url("/images/post_mark_opec.png") 50% 0%/cover no-repeat;
+  background-size: 100% auto;
+}
+@media (max-width: 991px) {
+  div.opecMark {
+    background-size: auto 100%;
   }
 }
