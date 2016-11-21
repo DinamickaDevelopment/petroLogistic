@@ -29,14 +29,15 @@
 		a.clientArea:hover 
 			background: #fafafa!important;
 			color:#1991eb !important;
-	ul.dropdown-menu
-		background:rgb(238,233,217)
-		
-		li
-			width:100%;
+	li.dropdown:hover > ul.dropdown-menu
+			display:block;
+		ul.dropdown-menu
+			background:rgb(238,233,217)
+			li
+				width:100%;
 
-			a
-				margin:10px 0;
+				a
+					margin:10px 0;
 
 @media (min-width: 320px) and (max-width: 767px)
 	.nav
