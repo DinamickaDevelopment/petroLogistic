@@ -41,6 +41,9 @@
     <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="views\country.jade" />
     <Content Include="views\history.jade" />
+    <Content Include="views\opec.jade" />
+    <Content Include="views\soviet.jade" />
+    <Content Include="views\services.jade" />
     <Content Include="Web.config" />
     <None Include="Web.Debug.config" />
     <Content Include="public\images\home_bg.png" />
