@@ -14,4 +14,8 @@ router.get('/country', function (req, res) {
     res.render('country'); 
 }); 
 
+router.get('/history', function (req, res) {
+    res.render('history'); 
+})
+
 module.exports = router;
