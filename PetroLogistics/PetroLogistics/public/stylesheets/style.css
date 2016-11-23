@@ -27,7 +27,7 @@ body {
   background: #1991eb;
   border: 1px solid #1991eb;
   color: #fafafa !important;
-  transition: background-color 0.1s linear, border 0.1s linear;
+  transition: background-color 0.1s linear, color 0.1s linear, border 0.1s linear;
 }
 .navbar.navbar-default.navbar-static-top li a:hover {
   color: #1991eb !important;
@@ -370,13 +370,8 @@ section.reqTrial a.moveLink:hover {
   height: 500px;
 }
 .companyImage {
-  background: url("/images/about_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/about_bg.png") 50% 81%/cover no-repeat;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  .companyInfoHeader {
-    height: 700px;
-  }
 }
 .companyInfo {
   text-align: center;
@@ -552,7 +547,7 @@ section.trialBtn {
   height: 500px;
 }
 .countryImage {
-  background: url("/images/country_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/country_bg.png") 50% 60%/cover no-repeat;
   height: 100%;
 }
 .postMarkSectionWrap {
@@ -661,20 +656,18 @@ div.countryBtnContainer {
 }
 section.footerBlock {
   width: 100%;
+  margin-top: 40px;
   position: absolute;
+}
+@media (max-width: 768px) {
 }
 .historyHeader {
   height: 500px;
 }
 .historyImage {
-  background: url("/images/history_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/history_bg.png") 50% 40%/cover no-repeat;
   bacgkround-size: 100% auto;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  .historyHeader {
-    height: 700px;
-  }
 }
 section.historyContent {
   background-color: #f2f2f2;
@@ -740,14 +733,9 @@ section.historyFooter {
   height: 500px;
 }
 .servicesImage {
-  background: url("/images/services_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/services_bg.png") 50% 60%/cover no-repeat;
   bacgkround-size: 100% auto;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  .servicesHeader {
-    height: 700px;
-  }
 }
 section.servicesContent {
   padding-bottom: 45px;
@@ -885,7 +873,7 @@ section.sovietHeader {
   height: 500px;
 }
 .sovietImage {
-  background: url("/images/service_soviet_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/service_soviet_bg.png") 50% 60%/cover no-repeat;
   height: 100%;
 }
 .sovietMark {
@@ -903,7 +891,7 @@ section.opecHeader {
   height: 500px;
 }
 .opecImage {
-  background: url("/images/service_opec_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/service_opec_bg.png") 50% 60%/cover no-repeat;
   height: 100%;
 }
 .opecMark {
@@ -921,13 +909,8 @@ section.postsHeader {
   height: 500px;
 }
 .postsImage {
-  background: url("/images/posts_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/posts_bg.png") 50% 60%/cover no-repeat;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  .postsHeader {
-    height: 700px;
-  }
 }
 div.postImgContainer {
   height: 310px;
@@ -971,9 +954,11 @@ h3.pagination {
   text-align: center;
 }
 h3.pagination span.activePage {
-  text-decoration: underline;
+  display: inline-block;
+  border-bottom: 1px solid #1991eb;
   color: #1991eb;
   cursor: pointer;
+  padding-right: 1px;
 }
 h3.pagination span.inactivePage {
   color: #000;
@@ -993,13 +978,8 @@ section.contactHeader {
   height: 500px;
 }
 .contactImage {
-  background: url("/images/contact_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/contact_bg.png") 50% 50%/cover no-repeat;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  section.contactHeader {
-    height: 700px;
-  }
 }
 div.contactContent {
   text-align: center;
@@ -1049,8 +1029,8 @@ input.submit-btn {
   text-transform: uppercase;
   height: 40px;
   padding-top: 0;
-  transition: color 0.2s linear;
-  background-color: 0.2s linear, border 0.2s linear;
+  transition: color 0.1s linear;
+  background-color: 0.1s linear, border 0.1s linear;
 }
 input.submit-btn:hover {
   background: #fafafa !important;
@@ -1091,13 +1071,8 @@ section.loginHeader {
   height: 500px;
 }
 .loginImage {
-  background: url("/images/login_bg.png") 50% 0%/cover no-repeat;
+  background: url("/images/login_bg.png") 50% 60%/cover no-repeat;
   height: 100%;
-}
-@media (min-width: 1200px) {
-  section.loginHeader {
-    height: 700px;
-  }
 }
 div.loginFormContainer {
   margin-top: 30px;

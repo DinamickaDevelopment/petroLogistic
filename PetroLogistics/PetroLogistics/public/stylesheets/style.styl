@@ -24,7 +24,7 @@
 			background:#1991eb;
 			border:1px solid #1991eb;
 			color:#fafafa !important;
-			transition: background-color .1s linear, border .1s linear;
+			transition: background-color .1s linear, color .1s linear, border .1s linear;
 		a:hover 
 			color:#1991eb !important;
 		a.clientArea:hover 
@@ -277,12 +277,8 @@ section.reqTrial
 	height: 500px; 
 
 .companyImage
-	background: url(/images/about_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/about_bg.png) 50% 81% / cover no-repeat; 
 	height: 100%; 
-
-@media (min-width: 1200px) 
-	.companyInfoHeader
-		height: 700px; 
 
 .companyInfo
 	text-align: center; 
@@ -449,7 +445,7 @@ section.trialBtn
 	height: 500px; 
 
 .countryImage
-	background: url(/images/country_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/country_bg.png) 50% 60% / cover no-repeat; 
 	height: 100%; 
 
 
@@ -556,7 +552,11 @@ div.countryBtnContainer
 
 section.footerBlock
 	width: 100%;
-	position: absolute;
+	margin-top: 40px;
+	position: absolute; 
+
+@media (max-width: 768px)
+	margin-top: 0;
 
 //============================= History Page Header ======================================== 
 
@@ -564,13 +564,10 @@ section.footerBlock
 	height: 500px; 
 
 .historyImage
-	background: url(/images/history_bg.png) 50% 0% / cover no-repeat;  
+	background: url(/images/history_bg.png) 50% 40% / cover no-repeat;  
 	bacgkround-size: 100% auto;
 	height: 100%; 
 
-@media (min-width: 1200px)
-	.historyHeader 
-		height: 700px; 
 
 //============================= History Page Content ======================================== 
 
@@ -640,13 +637,10 @@ section.historyFooter
 	height: 500px; 
 
 .servicesImage
-	background: url(/images/services_bg.png) 50% 0% / cover no-repeat;  
+	background: url(/images/services_bg.png) 50% 60% / cover no-repeat;  
 	bacgkround-size: 100% auto;
 	height: 100%; 
 
-@media (min-width: 1200px)
-	.servicesHeader 
-		height: 700px; 
 
 //============================= Services Page Content ========================================  
 
@@ -788,7 +782,7 @@ section.sovietHeader
 	height: 500px; 
 
 .sovietImage
-	background: url(/images/service_soviet_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/service_soviet_bg.png) 50% 60% / cover no-repeat; 
 	height: 100%; 
 	
 
@@ -811,7 +805,7 @@ section.opecHeader
 	height: 500px; 
 
 .opecImage
-	background: url(/images/service_opec_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/service_opec_bg.png) 50% 60% / cover no-repeat; 
 	height: 100%; 
 	
 //============================= Opec Page Content ========================================  
@@ -833,13 +827,9 @@ section.postsHeader
 	height: 500px; 
 
 .postsImage
-	background: url(/images/posts_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/posts_bg.png) 50% 60% / cover no-repeat; 
 	height: 100%; 
 	
-@media (min-width: 1200px)
-	.postsHeader 
-		height: 700px; 
- 
 
 //============================= Posts Page Content ========================================  
 
@@ -882,9 +872,11 @@ div.pageSwitchContainer
 h3.pagination
 	text-align: center; 
 	span.activePage
-		text-decoration: underline; 
+		display: inline-block;
+		border-bottom: 1px solid #1991eb;
 		color: #1991eb;
-		cursor: pointer; 
+		cursor: pointer;
+		padding-right: 1px;
 
 	span.inactivePage
 		color: black;
@@ -906,12 +898,9 @@ section.contactHeader
 	height: 500px; 
 
 .contactImage
-	background: url(/images/contact_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/contact_bg.png) 50% 50% / cover no-repeat; 
 	height: 100%; 
 
-@media (min-width: 1200px)
-	section.contactHeader 
-		height: 700px; 
 
 //============================= Contact Page Content ========================================  
 
@@ -962,7 +951,7 @@ input.submit-btn
 	text-transform: uppercase; 
 	height: 40px;
 	padding-top: 0;
-	transition: color .2s linear; background-color .2s linear, border .2s linear; 
+	transition: color .1s linear; background-color .1s linear, border .1s linear; 
 
 input.submit-btn:hover 
 	background: #fafafa!important;
@@ -1006,12 +995,9 @@ section.loginHeader
 	height: 500px; 
 
 .loginImage
-	background: url(/images/login_bg.png) 50% 0% / cover no-repeat; 
+	background: url(/images/login_bg.png) 50% 60% / cover no-repeat; 
 	height: 100%; 
 
-@media (min-width: 1200px)
-	section.loginHeader 
-		height: 700px; 
 
 //============================= Client Area Login Page Content ========================================  
 
