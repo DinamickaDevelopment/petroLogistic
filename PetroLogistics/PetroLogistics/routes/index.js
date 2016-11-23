@@ -46,5 +46,10 @@ router.get('/contact', function (req, res) {
     res.render('contact');
 }); 
 
+/* GET login page */
+router.get('/login', function (req, res) {
+    res.render('login'); 
+})
+
 
 module.exports = router;

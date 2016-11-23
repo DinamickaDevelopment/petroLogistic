@@ -62,6 +62,7 @@
     <Content Include="views\contact.jade" />
     <Content Include="views\country.jade" />
     <Content Include="views\history.jade" />
+    <Content Include="views\login.jade" />
     <Content Include="views\opec.jade" />
     <Content Include="views\posts.jade" />
     <Content Include="views\soviet.jade" />
