@@ -48,6 +48,7 @@
     <Content Include="public\images\history_bg.png" />
     <Content Include="public\images\history_photo.png" />
     <Content Include="public\images\jaquie.png" />
+    <Content Include="public\images\login_bg.png" />
     <Content Include="public\images\mark.png" />
     <Content Include="public\images\meet_team_bg.png" />
     <Content Include="public\images\posts_bg.png" />
