@@ -43,6 +43,7 @@
     <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="public\images\about_bg.png" />
     <Content Include="public\images\adam.png" />
+    <Content Include="public\images\contact_bg.png" />
     <Content Include="public\images\country_bg.png" />
     <Content Include="public\images\daniel.png" />
     <Content Include="public\images\history_bg.png" />
@@ -50,6 +51,10 @@
     <Content Include="public\images\jaquie.png" />
     <Content Include="public\images\mark.png" />
     <Content Include="public\images\meet_team_bg.png" />
+    <Content Include="public\images\posts_bg.png" />
+    <Content Include="public\images\post_img_1.png" />
+    <Content Include="public\images\post_img_2.png" />
+    <Content Include="public\images\post_img_3.png" />
     <Content Include="public\images\post_mark.png" />
     <Content Include="public\images\post_mark_opec.png" />
     <Content Include="public\images\post_mark_soviet.png" />
