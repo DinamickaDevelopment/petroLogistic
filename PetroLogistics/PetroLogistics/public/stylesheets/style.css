@@ -391,9 +391,24 @@ section.reqTrial a.moveLink:hover {
   margin: 0 0 40px 0;
   text-align: left;
 }
-.underline {
-  font-weight: 500;
-  border-bottom: 1px solid;
+a.underline {
+  font-weight: 400;
+  border-bottom: 1px solid #333;
+  color: #333;
+  transition: color 0.1s linear, border 0.1s linear;
+}
+a.underline:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1991eb;
+  color: #1991eb;
+}
+a.underline:focus {
+  text-decoration: none;
+  border-bottom: 1px solid #1991eb;
+  color: #1991eb;
+}
+a.underline:visited {
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   p.companyDescription {
@@ -674,6 +689,9 @@ div.historyContentWrap {
   width: 100%;
   height: 100%;
   border-radius: 2px;
+}
+span.fat-text {
+  font-weight: 400;
 }
 div.contentBox {
   -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
