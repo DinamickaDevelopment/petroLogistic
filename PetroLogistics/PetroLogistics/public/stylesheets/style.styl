@@ -24,6 +24,7 @@
 			background:#1991eb;
 			border:1px solid #1991eb;
 			color:#fafafa !important;
+			transition: background-color .1s linear, border .1s linear;
 		a:hover 
 			color:#1991eb !important;
 		a.clientArea:hover 
@@ -404,6 +405,10 @@ a.underline:visited
 @media (max-width: 400px) 
 	p.team-member-description 
 		height: 325px !important; 
+
+@media (max-width: 320px)
+	p.team-member-description
+		height: 455px !important;
 
 //============================= About Page Request Trial Button ========================================
 
@@ -957,10 +962,12 @@ input.submit-btn
 	text-transform: uppercase; 
 	height: 40px;
 	padding-top: 0;
-	transition: color .2s linear; background-color .2s linear; 
+	transition: color .2s linear; background-color .2s linear, border .2s linear; 
 
 input.submit-btn:hover 
-	color:#2b2b2b;   
+	background: #fafafa!important;
+	color:#1991eb !important;   
+	border: 1px solid #1991eb;
 
 div.info
 	text-align: left; 

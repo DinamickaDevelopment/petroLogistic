@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\javascripts\form_handler.js" />
     <Compile Include="public\javascripts\script.js" />
     <Compile Include="public\javascripts\smoothscroll.js" />
     <Compile Include="routes\index.js" />
