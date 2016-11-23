@@ -391,9 +391,24 @@ section.reqTrial a.moveLink:hover {
   margin: 0 0 40px 0;
   text-align: left;
 }
-.underline {
-  font-weight: 500;
-  border-bottom: 1px solid;
+a.underline {
+  font-weight: 400;
+  border-bottom: 1px solid #333;
+  color: #333;
+  transition: color 0.1s linear, border 0.1s linear;
+}
+a.underline:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1991eb;
+  color: #1991eb;
+}
+a.underline:focus {
+  text-decoration: none;
+  border-bottom: 1px solid #1991eb;
+  color: #1991eb;
+}
+a.underline:visited {
+  text-decoration: none;
 }
 @media (max-width: 767px) {
   p.companyDescription {
@@ -541,6 +556,9 @@ section.trialBtn {
   padding: 5px !important;
   height: 395px;
   background-color: #1991eb;
+  -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
 }
 .postMark {
   height: 100%;
@@ -587,6 +605,11 @@ p.countryText {
   position: absolute;
   width: 100%;
   padding: 15px 0;
+}
+div.countryBtnContainer {
+  -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
 }
 .bottom-tile {
   bottom: 0;
@@ -666,6 +689,9 @@ div.historyContentWrap {
   width: 100%;
   height: 100%;
   border-radius: 2px;
+}
+span.fat-text {
+  font-weight: 400;
 }
 div.contentBox {
   -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
@@ -905,6 +931,9 @@ div.post-img {
   height: 100%;
   border-radius: 2px;
 }
+div.p-text {
+  padding: 0 25px;
+}
 div.post-img1 {
   background: url("/images/post_img_1.png") 50% 0%/cover no-repeat;
 }
@@ -948,6 +977,11 @@ h3.pagination span.inactivePage {
   p.postText {
     font: 400 15px/22px "Open Sans";
   }
+  div.postImgContainer {
+    height: 330px;
+  }
+}
+@media (max-width: 991px) {
 }
 section.contactHeader {
   height: 500px;
@@ -957,17 +991,19 @@ section.contactHeader {
   height: 100%;
 }
 @media (min-width: 1200px) {
-  .contactHeader {
+  section.contactHeader {
     height: 700px;
   }
 }
 div.contactContent {
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 form.contactForm {
   margin-top: 20px;
-  padding: 15px 80px 0px 80px;
-  margin-bottom: 15px;
+  padding: 30px 80px 15px 80px;
+  margin-bottom: 25px;
   background-color: #fafafa;
   -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
   -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
@@ -982,11 +1018,15 @@ p.contact-title {
 input.contact-input {
   border-radius: 0px;
   border: 1px solid #8c8c8c;
+  height: 40px;
+  background-color: #fafafa;
+  padding-left: 20px;
 }
 textarea.contact-textarea {
   border-radius: 0px;
   resize: none;
   border: 1px solid #8c8c8c;
+  background-color: #fafafa;
 }
 div.left-half {
   padding-right: 7px;
@@ -1001,12 +1041,23 @@ input.submit-btn {
   border-radius: 0 !important;
   font: 600 16px/40px "Open Sans";
   text-transform: uppercase;
-  height: 55px;
+  height: 40px;
+  padding-top: 0;
   transition: color 0.2s linear;
   background-color: 0.2s linear;
 }
 input.submit-btn:hover {
   color: #2b2b2b;
+}
+div.info {
+  text-align: left;
+  margin-bottom: 45px;
+}
+div.info-text p {
+  margin: 0;
+}
+div.info-tile {
+  margin-top: 0;
 }
 @media (max-width: 991px) {
   div.left-half {
@@ -1014,5 +1065,52 @@ input.submit-btn:hover {
   }
   div.right-half {
     padding-left: 15px;
+  }
+  div.info-tile {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  div.form-wrap {
+    padding: 0;
+  }
+  form.contactForm {
+    padding: 30px 20px 15px 20px;
+  }
+}
+section.loginHeader {
+  height: 500px;
+}
+.loginImage {
+  background: url("/images/login_bg.png") 50% 0%/cover no-repeat;
+  height: 100%;
+}
+@media (min-width: 1200px) {
+  section.loginHeader {
+    height: 700px;
+  }
+}
+div.loginFormContainer {
+  margin-top: 30px;
+  margin-bottom: 45px;
+  background-color: #fafafa;
+  -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+  box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+}
+form.loginForm {
+  padding: 40px;
+}
+@media (max-width: 1200px) {
+  section.loginContent div.container {
+    margin-top: 30px;
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 768px) {
+  section.loginContent div.container {
+    margin-top: unset;
+    margin-bottom: unset;
   }
 }
