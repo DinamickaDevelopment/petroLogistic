@@ -49,12 +49,14 @@ router.get('/contact', function (req, res) {
 
 /* GET login page */
 router.get('/login', function (req, res) {
+
     res.render('login');
+
 }); 
 
 router.post('/send_form', function (req, res) {
 
-    
+   
     var data = req.body; 
 
 	var str = JSON.stringify({
