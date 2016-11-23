@@ -27,7 +27,7 @@ body {
   background: #1991eb;
   border: 1px solid #1991eb;
   color: #fafafa !important;
-  transition: background-color 0.1s linear, border 0.1s linear;
+  transition: background-color 0.1s linear, color 0.1s linear, border 0.1s linear;
 }
 .navbar.navbar-default.navbar-static-top li a:hover {
   color: #1991eb !important;
@@ -1043,14 +1043,14 @@ div.right-half {
 input.submit-btn {
   background-color: #1991eb;
   color: #fafafa;
-  border: 1px solid #fafafa;
+  border: 1px solid #1991eb;
   border-radius: 0 !important;
   font: 600 16px/40px "Open Sans";
   text-transform: uppercase;
   height: 40px;
   padding-top: 0;
-  transition: color 0.2s linear;
-  background-color: 0.2s linear, border 0.2s linear;
+  transition: color 0.1s linear;
+  background-color: 0.1s linear, border 0.1s linear;
 }
 input.submit-btn:hover {
   background: #fafafa !important;
