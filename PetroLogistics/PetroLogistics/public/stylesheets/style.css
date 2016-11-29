@@ -1023,6 +1023,12 @@ h3.pagination span.inactivePage {
   color: #000;
   cursor: pointer;
 }
+div.big-row {
+  display: block;
+}
+div.small-row {
+  display: none;
+}
 @media (max-width: 1200px) {
   p.postText {
     font: 400 15px/22px "Open Sans";
@@ -1032,6 +1038,12 @@ h3.pagination span.inactivePage {
   }
 }
 @media (max-width: 991px) {
+  div.big-row {
+    display: none;
+  }
+  div.small-row {
+    display: block;
+  }
 }
 section.contactHeader {
   height: 500px;

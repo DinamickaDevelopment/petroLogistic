@@ -927,7 +927,11 @@ h3.pagination
 	span.inactivePage
 		color: black;
 		cursor: pointer; 
-		
+div.big-row
+	display: block;	
+div.small-row
+	display: none; 
+
 @media (max-width: 1200px)
 	p.postText
 		font: 400 15px/22px "Open Sans"; 
@@ -935,7 +939,12 @@ h3.pagination
 	    height: 330px;
 
 @media (max-width: 991px)
-	padding: unset; 
+	div.big-row
+		display: none;
+	div.small-row
+		display: block;
+
+
 
 
 //============================= Contact Page Header ========================================  
