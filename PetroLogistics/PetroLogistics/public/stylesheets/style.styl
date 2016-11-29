@@ -122,7 +122,6 @@ section.reqTrial
 		height: 50px;
 		position: absolute;
 		top:inherit;
-		bottom:52px;
 		left:50%;
 		margin:0 0 0 -25px;
 		background: #fafafa;
@@ -143,36 +142,57 @@ section.reqTrial
 		background:#1991eb;
 		color:#fafafa;
 
-@media (min-width: 320px) and (max-width: 374px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait)
 	section.reqTrial
 		h1
-			font: 900 20px/24px "Open Sans";
+			font: 900 16px/22px "Open Sans";
 			padding: 0 0 0 0;
-			margin: 120px 0 0 0;
+			margin: 110px 0 0 0;
 		h3
-			font: 14px/20px "Open Sans";
+			font: 14px/18px "Open Sans";
 			padding: 0 0 0 0;
 			margin: 0 0 0 0;
+		a.moveLink
+			bottom:25px;
 @media (min-width: 375px) and (max-width: 424px)
 	section.reqTrial
 		h1
-			font: 900 20px/24px "Open Sans";
-			padding: 0 0 0 0;
-			margin: 120px 0 0 0;
-		h3
-			font: 14px/20px "Open Sans";
-			padding: 0 0 0 0;
-			margin: 0 0 0 0;
-@media (min-width: 425px) and (max-width: 767px)
-	section.reqTrial
-		h1
-			font: 900 20px/24px "Open Sans";
+			font: 900 16px/22px "Open Sans";
 			padding: 0 0 0 0;
 			margin: 140px 0 0 0;
 		h3
-			font: 14px/20px "Open Sans";
+			font: 14px/18px "Open Sans";
 			padding: 0 0 0 0;
 			margin: 0 0 0 0;
+		a.moveLink
+			bottom:25px;
+			
+@media (min-width: 425px) and (max-width: 767px)
+	section.reqTrial
+		h1
+			font: 900 16px/22px "Open Sans";
+			padding: 0 0 0 0;
+			margin: 120px 0 0 0;
+		h3
+			font: 14px/16px "Open Sans";
+			padding: 0 0 0 0;
+			margin: 0 0 0 0;
+		a.moveLink
+			bottom:25px;
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape)
+	section.reqTrial
+			h1
+				font: 900 16px/22px "Open Sans";
+				padding: 0 0 0 0;
+				margin: 100px 0 0 0;
+			h3
+				font: 14px/16px "Open Sans";
+				padding: 0 0 0 0;
+				margin: 0 0 0 0;
+			a.req
+				margin:30px 0 0 0;
+			a.moveLink
+				bottom:25px;
 @media (min-width: 768px) and (max-width: 991px)
 	section.reqTrial
 		h1
@@ -180,6 +200,8 @@ section.reqTrial
 			margin: 120px 0 0 0;
 		h3
 			font: 20px/26px "Open Sans";
+		a.moveLink
+			bottom:25px;
 
 @media (min-width: 992px) and (max-width: 1199px)
 	section.reqTrial
@@ -191,6 +213,8 @@ section.reqTrial
 			font: 24px/35px "Open Sans";
 			padding: 0 240px 0 0;
 			margin: 0 0 0 0;
+		a.moveLink
+			bottom:25px;
 
 @media (min-width: 1200px) 
 	section.reqTrial
@@ -202,6 +226,8 @@ section.reqTrial
 				font: 24px/35px "Open Sans";
 				padding: 0 240px 0 0;
 				margin: 0 0 0 0;
+			a.moveLink
+				bottom:25px;
 
 //============================= Home Page Value Points  ========================================
 .valuePoints
@@ -214,7 +240,7 @@ section.reqTrial
 			color:#1991eb;
 		p
 			padding: 0 10px;
-			font:300 16px/18px "Open Sans";  
+			font:300 16px/22px "Open Sans";  
 			color:#909090;
 			margin: 0 0 20px 0;
 	.sectionContent

@@ -1,5 +1,5 @@
 ﻿window.onload = function () {
-    var contactForm = document.querySelector('form[name="contactForm"]'); 
+    var contactForm = document.getElementById('contactForm'); 
 
     contactForm.onsubmit = function (e) {
         e.preventDefault(); 
