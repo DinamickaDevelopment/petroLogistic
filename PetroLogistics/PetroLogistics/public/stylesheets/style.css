@@ -979,9 +979,6 @@ div.post-img {
   height: 100%;
   border-radius: 2px;
 }
-div.p-text {
-  padding: 0 25px;
-}
 div.post-img1 {
   background: url("/images/post_img_1.png") 50% 0%/cover no-repeat;
 }
@@ -991,19 +988,36 @@ div.post-img2 {
 div.post-img3 {
   background: url("/images/post_img_3.png") 50% 0%/cover no-repeat;
 }
-p.postText {
-  font: 400 16px/24px "Open Sans";
-  color: #1c1c1c;
-}
-div.p-img {
-  padding: 0 !important;
-}
 div.post-row {
+  margin-bottom: 10px;
+}
+div.post-row .post-column {
+  margin-bottom: 20px;
+}
+div.post-row .post-column div.textWraper {
+  padding: 15px 12px;
   background-color: #fafafa;
-  margin-bottom: 30px;
   -webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
   -moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
   box-shadow: 0px 2px 3.76px 0.24px rgba(95,96,96,0.3);
+}
+div.post-row .post-column div.textWraper .postHeading {
+  vertical-align: bottom;
+  line-height: 32px;
+  display: inline-block;
+  margin: 0 !important;
+}
+div.post-row .post-column div.textWraper img {
+  display: inline-block;
+  margin-right: 12px;
+}
+div.post-row .post-column div.textWraper .postText {
+  vertical-align: bottom;
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0 0 0px;
+  font: 400 16px/24px "Open Sans";
+  color: #1c1c1c;
 }
 div.pageSwitchContainer {
   margin: 0 auto;
@@ -1011,6 +1025,7 @@ div.pageSwitchContainer {
 }
 h3.pagination {
   text-align: center;
+  margin: 0 !important;
 }
 h3.pagination span.activePage {
   display: inline-block;
