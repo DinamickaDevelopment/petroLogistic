@@ -1,0 +1,8 @@
+﻿extends layout
+block content
+    section.postContent
+        div.container.singlePostContainer
+            h3.serviceHeading.singlePostHeading= title
+            div.postTextContainer!= text
+    section.singlePostFooterBlock
+        include footer
