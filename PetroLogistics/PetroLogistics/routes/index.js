@@ -42,6 +42,11 @@ router.get('/posts', function (req, res) {
     res.render('posts');
 }); 
 
+/* GET single post page */
+router.get('/post', function (req, res) {
+    res.render('post');
+}); 
+
 /* GET contacts page */
 router.get('/contact', function (req, res) {
     res.render('contact');

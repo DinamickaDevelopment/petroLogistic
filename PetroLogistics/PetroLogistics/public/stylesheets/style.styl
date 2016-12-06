@@ -902,7 +902,10 @@ div.post-row
 	.post-column
 		margin-bottom:20px;
 
-		div.textWraper
+		a.textWraper
+			cursor: pointer; 
+			display: block; 
+			color: #1c1c1c; 
 			padding: 15px 12px; 
 			background-color: #fafafa; 
 			-webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95, 96, 96, 0.3);
@@ -925,6 +928,9 @@ div.post-row
 				padding: 0 0 0px;
 				font:400 16px/24px "Open Sans";  
 				color:#1c1c1c;
+		a.textWraper:hover
+			color: #1c1c1c; 
+
 
 div.pageSwitchContainer
 	margin: 0 auto; 
@@ -1094,3 +1100,31 @@ form.loginForm
 		div.container
 			margin-top: unset;
 			margin-bottom: unset; 
+
+//============================= Single Post Page Content ========================================  
+
+section.singlePostFooterBlock
+	width: 100%;
+	margin-top: 80px;
+	position: absolute; 
+	bottom: unset; 
+
+div.singlePostContainer
+	padding-top: 150px; 
+
+h3.singlePostHeading
+	margin-bottom: 50px; 
+
+p.singlePostText
+	font: 100 20px/30px "Open Sans";
+	margin: 0 0 40px 0;
+
+@media (max-width: 768px)
+	p.singlePostText
+		font: 100 16px/30px "Open Sans";
+		margin: 0 20px 0;
+	section.singlePostFooterBlock
+		width: 100%;
+		margin-top: 80px;
+		position: absolute; 
+		bottom: unset; 
