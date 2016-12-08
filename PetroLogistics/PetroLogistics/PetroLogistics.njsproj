@@ -37,7 +37,6 @@
     <Compile Include="public\javascripts\smoothscroll.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
-    <Compile Include="bin\www" />
     <Compile Include="views\about.jade" />
     <Content Include="package.json" />
     <None Include="PetroLogistics - Web Deploy.pubxml" />
