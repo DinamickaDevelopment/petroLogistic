@@ -38,8 +38,8 @@
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
     <Compile Include="views\about.jade" />
+    <Content Include="bin\www" />
     <Content Include="package.json" />
-    <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="public\images\about_bg.jpg" />
     <Content Include="public\images\adam.png" />
     <Content Include="public\images\contact_bg.jpg" />
@@ -76,8 +76,6 @@
     <Content Include="views\posts.jade" />
     <Content Include="views\soviet.jade" />
     <Content Include="views\services.jade" />
-    <Content Include="Web.config" />
-    <None Include="Web.Debug.config" />
     <Content Include="public\images\logo.png" />
     <Content Include="public\images\spriteHomePage.png" />
     <Content Include="public\stylesheets\style.styl" />
@@ -87,6 +85,7 @@
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="views\error.jade" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
