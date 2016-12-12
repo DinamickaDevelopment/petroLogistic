@@ -36,7 +36,7 @@ block content
                                 div.form-group
                                     textarea.form-control.contact-textarea(placeholder="Comment", rows="10", name="comment")
                         div.row
-                            div.col-lg-12.col-md-12submit-btn  
+                            div.col-lg-12.col-md-12  
                                 div.form-group
                                     input.form-control.submit-btn(type="submit", value="SUBMIT")                                
             div.row
@@ -59,6 +59,12 @@ block content
 
 
 
+    section.popupBlock
+        div.popupBody
+            div.popupContentWrap
+                div.popupContent
+                    h3.serviceHeading Success!
+                    button.popupBtn(id="popupBtn") OK
 
     section.footerBlock
         include footer

@@ -37,7 +37,7 @@
     <Compile Include="public\javascripts\smoothscroll.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
-    <Compile Include="views\about.jade" />
+    <Compile Include="views\about.pug" />
     <Content Include="bin\www" />
     <Content Include="package.json" />
     <Content Include="public\images\about_bg.jpg" />
@@ -67,24 +67,24 @@
     <Content Include="public\images\service_soviet.jpg" />
     <Content Include="public\images\service_soviet_bg.jpg" />
     <Content Include="public\stylesheets\style.css" />
-    <Content Include="views\contact.jade" />
-    <Content Include="views\country.jade" />
-    <Content Include="views\history.jade" />
-    <Content Include="views\post.jade" />
-    <Content Include="views\login.jade" />
-    <Content Include="views\opec.jade" />
-    <Content Include="views\posts.jade" />
-    <Content Include="views\soviet.jade" />
-    <Content Include="views\services.jade" />
+    <Content Include="views\contact.pug" />
+    <Content Include="views\country.pug" />
+    <Content Include="views\history.pug" />
+    <Content Include="views\post.pug" />
+    <Content Include="views\login.pug" />
+    <Content Include="views\opec.pug" />
+    <Content Include="views\posts.pug" />
+    <Content Include="views\soviet.pug" />
+    <Content Include="views\services.pug" />
     <Content Include="public\images\logo.png" />
     <Content Include="public\images\spriteHomePage.png" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="typings.json" />
-    <Content Include="views\footer.jade" />
-    <Content Include="views\index.jade" />
-    <Content Include="views\layout.jade" />
-    <Content Include="views\error.jade" />
+    <Content Include="views\footer.pug" />
+    <Content Include="views\index.pug" />
+    <Content Include="views\layout.pug" />
+    <Content Include="views\error.pug" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +106,7 @@
     <Folder Include="typings\globals\mime\" />
     <Folder Include="typings\globals\morgan\" />
     <Folder Include="typings\globals\node\" />
+    <Folder Include="typings\globals\pug\" />
     <Folder Include="typings\globals\serve-favicon\" />
     <Folder Include="typings\globals\serve-static\" />
     <Folder Include="typings\globals\stylus\" />
@@ -122,6 +123,7 @@
     <TypeScriptCompile Include="typings\globals\mime\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\morgan\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
+    <TypeScriptCompile Include="typings\globals\pug\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-favicon\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-static\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\stylus\index.d.ts" />

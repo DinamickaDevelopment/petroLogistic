@@ -1,6 +1,18 @@
 ﻿window.onload = function () {
     
     var contactForm = document.getElementById('contactForm'); 
+    $('#popupBtn').on('click', function () {
+
+        $('input.contact-input[name="firstName"]').val('');
+        $('input.contact-input[name="lastName"]').val('');
+        $('input.contact-input[name="email"]').val('');
+        $('input.contact-input[name="company"]').val('');
+        $('input.contact-input[name="phone"]').val('');
+        $('textarea[name="comment"]').val(''); 
+
+        $('.popupBlock').fadeOut(500); 
+
+    })
 
     if (contactForm) {
 
@@ -22,6 +34,10 @@
             xhr.open('POST', '/send_form');
             xhr.setRequestHeader('Content-Type', 'application/json');
             xhr.send(json_data);
+
+            xhr.onload = function () {
+                $('.popupBlock').fadeIn(500); 
+            }
 
         }
     } 

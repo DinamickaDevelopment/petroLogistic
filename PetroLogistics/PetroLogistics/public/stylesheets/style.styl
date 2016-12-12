@@ -316,6 +316,16 @@ section.reqTrial
 //@media (min-width: 768px)
 //@media (min-width: 992px) and (max-width: 1199px)
 //@media (min-width: 1200px) 
+@media (max-width: 374px) 
+	section.reqTrial 
+		div.container
+			padding-top: 100px;
+	section.reqTrial a.req
+		margin-bottom: 30px;
+	h1.indexText
+		font-size: 30px; 
+	h3.indexText
+		font-size: 17px;
 
 //============================= About Page Company Description Block ======================================== 
 
@@ -1068,6 +1078,62 @@ div.info-tile
 		padding: 30px 20px 15px 20px; 
 
 
+//============================= Contact Page Form Popup ========================================  
+ 
+section.popupBlock
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(76, 76, 76, 0.49);
+	display: none; 
+
+div.popupBody
+	display: table
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+div.popupContentWrap
+	display: table-cell;
+	vertical-align: middle;
+
+
+div.popupContent
+	width: 270px;
+	height: 190px;
+	padding: 15px;
+	padding-top: 25px; 
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 2px 3.76px 0.24px rgba(95, 96, 96, 0.3);
+	-moz-box-shadow: 0px 2px 3.76px 0.24px rgba(95, 96, 96, 0.3);
+	box-shadow: 0px 2px 3.76px 0.24px rgba(95, 96, 96, 0.3);
+
+button.popupBtn
+	background-color:#1991eb;
+	color: #fafafa;
+	border:1px solid #1991eb;
+	border-radius:0!important;
+	font:600 16px/40px "Open Sans";
+	text-transform: uppercase; 
+	height: 41px;
+	width: 45px;
+	margin-top: 10px; 
+	padding-top: 0;
+	transition: color .1s linear; background-color .1s linear, border .1s linear; 
+
+button.popupBtn:hover 
+	background: #fafafa!important;
+	color:#1991eb !important;   
+	border: 1px solid #1991eb;
+	outline: none; 
+
+button.popupBtn:focus
+	outline: none; 
+
 //============================= Client Area Login Page Header ========================================  
 
 section.loginHeader
@@ -1130,3 +1196,16 @@ p.singlePostText
 		margin-top: 80px;
 		position: absolute; 
 		bottom: unset; 
+
+//============================= Error Page ========================================  
+
+div.errorContainer
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 
+
+section.errorBlock
+	display: table; 
+	position: absolute; 
+	width: 100%; 
+	height: 100%; 

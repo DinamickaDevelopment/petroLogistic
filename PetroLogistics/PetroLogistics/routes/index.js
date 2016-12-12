@@ -269,8 +269,10 @@ router.post('/send_form', function (req, res) {
 	http_req.write(request_data);
     http_req.end();
     http_req.on('error', function (err) {
-        console.log(err); 
-    })
+        console.log(err);
+    }); 
+
+    res.send('OK');
 
 })
 
