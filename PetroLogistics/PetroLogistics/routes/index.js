@@ -237,7 +237,7 @@ router.post('/send_form', function (req, res) {
 
         "key": "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",
         "subject": "Contact Message",
-        "emailTo": "info@petro-logistics.com",
+        "emailTo": "s.timofeyeva@dinamicka.com",
         "emailFrom": "info@dinamicka.com",
         "html": '<strong> Message </strong> ' +
         '<p>First name: ' + data.first_name + '</p>' +
