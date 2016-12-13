@@ -11,9 +11,9 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>26fec3e2-1bae-4b00-b174-8d62163a5618</ProjectGuid>
+    <ProjectGuid>1897f908-eef8-4539-9472-9c43f1afbf39</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>app.js</StartupFile>
+    <StartupFile>bin\www</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,60 +32,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
-    <Compile Include="public\javascripts\form_handler.js" />
-    <Compile Include="public\javascripts\script.js" />
-    <Compile Include="public\javascripts\smoothscroll.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
-    <Compile Include="views\about.pug" />
-    <Content Include="bin\www" />
+    <Compile Include="bin\www" />
     <Content Include="package.json" />
-    <Content Include="public\images\about_bg.jpg" />
-    <Content Include="public\images\adam.png" />
-    <Content Include="public\images\contact_bg.jpg" />
-    <Content Include="public\images\country_bg.jpg" />
-    <Content Include="public\images\daniel.png" />
-    <Content Include="public\images\history_bg.jpg" />
-    <Content Include="public\images\history_photo.png" />
-    <Content Include="public\images\home_bg.jpg" />
-    <Content Include="public\images\jaquie.png" />
-    <Content Include="public\images\login_bg.jpg" />
-    <Content Include="public\images\mark.png" />
-    <Content Include="public\images\meet_team_bg.jpg" />
-    <Content Include="public\images\posts_bg.jpg" />
-    <Content Include="public\images\post_icon.png" />
-    <Content Include="public\images\post_img_1.png" />
-    <Content Include="public\images\post_img_2.png" />
-    <Content Include="public\images\post_img_3.png" />
-    <Content Include="public\images\post_mark.png" />
-    <Content Include="public\images\post_mark_opec.png" />
-    <Content Include="public\images\post_mark_soviet.png" />
-    <Content Include="public\images\services_bg.jpg" />
-    <Content Include="public\images\service_country.jpg" />
-    <Content Include="public\images\service_opec.jpg" />
-    <Content Include="public\images\service_opec_bg.jpg" />
-    <Content Include="public\images\service_soviet.jpg" />
-    <Content Include="public\images\service_soviet_bg.jpg" />
-    <Content Include="public\stylesheets\style.css" />
-    <Content Include="views\contact.pug" />
-    <Content Include="views\country.pug" />
-    <Content Include="views\history.pug" />
-    <Content Include="views\post.pug" />
-    <Content Include="views\login.pug" />
-    <Content Include="views\opec.pug" />
-    <Content Include="views\posts.pug" />
-    <Content Include="views\soviet.pug" />
-    <Content Include="views\services.pug" />
-    <Content Include="public\images\logo.png" />
-    <Content Include="public\images\spriteHomePage.png" />
+    <None Include="PetroLogistics - Web Deploy.pubxml" />
     <Content Include="public\stylesheets\style.styl" />
     <Content Include="README.md" />
     <Content Include="typings.json" />
-    <Content Include="views\footer.pug" />
-    <Content Include="views\index.pug" />
-    <Content Include="views\layout.pug" />
-    <Content Include="views\error.pug" />
-    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="bin\" />
@@ -97,41 +51,53 @@
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\body-parser\" />
-    <Folder Include="typings\globals\bootstrap\" />
     <Folder Include="typings\globals\cookie-parser\" />
     <Folder Include="typings\globals\debug\" />
-    <Folder Include="typings\globals\depd\" />
     <Folder Include="typings\globals\express-serve-static-core\" />
     <Folder Include="typings\globals\express\" />
     <Folder Include="typings\globals\jade\" />
     <Folder Include="typings\globals\mime\" />
     <Folder Include="typings\globals\morgan\" />
-    <Folder Include="typings\globals\ms\" />
     <Folder Include="typings\globals\node\" />
-    <Folder Include="typings\globals\on-finished\" />
     <Folder Include="typings\globals\pug\" />
-    <Folder Include="typings\globals\qs\" />
     <Folder Include="typings\globals\serve-favicon\" />
     <Folder Include="typings\globals\serve-static\" />
     <Folder Include="typings\globals\stylus\" />
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\about.jade" />
+    <Content Include="views\contact.jade" />
+    <Content Include="views\country.jade" />
+    <Content Include="views\error.jade" />
+    <Content Include="views\footer.jade" />
+    <Content Include="views\history.jade" />
+    <Content Include="views\index.jade" />
+    <Content Include="views\layout.jade" />
+    <Content Include="views\login.jade" />
+    <Content Include="views\opec.jade" />
+    <Content Include="views\post.jade" />
+    <Content Include="views\posts.jade" />
+    <Content Include="views\services.jade" />
+    <Content Include="views\soviet.jade" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config" />
+    <Content Include="bin\ChangeConfig.ps1" />
+    <Content Include="bin\download.ps1" />
+    <Content Include="bin\setup_web.cmd" />
+    <Content Include="bin\node.cmd" />
+  </ItemGroup>
+  <ItemGroup>
     <TypeScriptCompile Include="typings\globals\body-parser\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\bootstrap\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\cookie-parser\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\debug\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\depd\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\express-serve-static-core\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\express\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\jade\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\mime\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\morgan\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\ms\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\node\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\on-finished\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\pug\index.d.ts" />
-    <TypeScriptCompile Include="typings\globals\qs\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-favicon\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\serve-static\index.d.ts" />
     <TypeScriptCompile Include="typings\globals\stylus\index.d.ts" />

@@ -13,7 +13,7 @@ var app = express();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'pug');
+app.set('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -42,18 +42,17 @@ app.use(function (req, res, next) {
 if (app.get('env') === 'development') {
     app.use(function (err, req, res, next) {
         res.status(err.status || 500); 
-        if (err.status == 404) {
+        if (err.status === 404) {
             res.render('error', {
-                message: 'Page not found', 
-                error: {status: 404}
-            })
+                message: 'Page not found',
+                error: { status: 404 }
+            });
         } else {
             res.render('error', {
                 message: err.message,
                 error: err
             });
         }
-
 
     });
 }
@@ -63,11 +62,11 @@ if (app.get('env') === 'development') {
 app.use(function (err, req, res, next) {
     res.status(err.status || 500);
 
-    if (err.status == 404) {
+    if (err.status === 404) {
         res.render('error', {
-            message: 'Page not found', 
-            error: { status: 404}
-        })
+            message: 'Page not found',
+            error: { status: 404 }
+        });
     } else {
         res.render('error', {
             message: err.message,
@@ -77,8 +76,6 @@ app.use(function (err, req, res, next) {
 
 }); 
 
-
-
-app.listen(1337); 
+//app.listen(1337); 
 
 module.exports = app;
